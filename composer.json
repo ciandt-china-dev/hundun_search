@@ -1,0 +1,32 @@
+{
+    "name": "ciandt-china/hundun_search",
+    "description": "",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ciandt",
+            "homepage": "https://github.com/ciandt-china-dev",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "require": {
+        "drupal/search_api_solr": "4.x-dev"
+    },
+    "extra": {
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true
+    }
+
+}
